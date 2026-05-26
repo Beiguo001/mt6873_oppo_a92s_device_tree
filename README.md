@@ -8,3 +8,4 @@
 ```
 # mt6873_oppo_a92s_device_tree
 # mt6873_oppo_a92s_device_tree
+# mt6873_oppo_a92s_device_tree
