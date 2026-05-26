@@ -65,4 +65,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/alps/oplus_mssi_64_cn/oplus_mssi_64_cn-vendor.mk)
+$(call inherit-product, vendor/oppo/PDKM00/PDKM00-vendor.mk)
