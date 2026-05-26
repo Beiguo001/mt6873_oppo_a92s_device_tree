@@ -10,12 +10,12 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/alps/oplus_mssi_64_cn',
+    'device/oppo/PDKM00',
 ]
 
 module = ExtractUtilsModule(
-    'oplus_mssi_64_cn',
-    'alps',
+    'PDKM00',
+    'oppo',
     namespace_imports=namespace_imports,
 )
 
