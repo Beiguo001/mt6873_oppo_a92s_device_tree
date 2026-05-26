@@ -5,6 +5,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),oplus_mssi_64_cn)
+ifeq ($(TARGET_DEVICE),PDKM00)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
