@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/alps/oplus_mssi_64_cn
+DEVICE_PATH := device/oppo/PDKM00
 
 # Architecture
 TARGET_ARCH := arm64
@@ -36,8 +36,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := oplus_mssi_64_cn_defconfig
-TARGET_KERNEL_SOURCE := kernel/alps/oplus_mssi_64_cn
+TARGET_KERNEL_CONFIG := PDKM00_defconfig
+TARGET_KERNEL_SOURCE := kernel/oppo/PDKM00
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -77,7 +77,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2022-05-05
+VENDOR_SECURITY_PATCH := 2026-05-05
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -91,4 +91,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/alps/oplus_mssi_64_cn/BoardConfigVendor.mk
+include vendor/oppo/PDKM00/BoardConfigVendor.mk
