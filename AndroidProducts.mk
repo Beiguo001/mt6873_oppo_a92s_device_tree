@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_oplus_mssi_64_cn.mk
+    $(LOCAL_DIR)/lineage_PDKM00.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_oplus_mssi_64_cn-user \
-    lineage_oplus_mssi_64_cn-userdebug \
-    lineage_oplus_mssi_64_cn-eng
+    PDKM00-user \
+    PDKM00-userdebug \
+    PDKM00-eng
