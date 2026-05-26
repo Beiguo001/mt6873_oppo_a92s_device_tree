@@ -7,20 +7,20 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from oplus_mssi_64_cn device
-$(call inherit-product, device/alps/oplus_mssi_64_cn/device.mk)
+# Inherit from PDKM00 device
+$(call inherit-product, device/oppo/PDKM00/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := oplus_mssi_64_cn
-PRODUCT_NAME := lineage_oplus_mssi_64_cn
-PRODUCT_BRAND := alps
-PRODUCT_MODEL := oplus_mssi_64_cn
-PRODUCT_MANUFACTURER := alps
+PRODUCT_DEVICE := PDKM00
+PRODUCT_NAME := lineage_PDKM00
+PRODUCT_BRAND := OPPO
+PRODUCT_MODEL := PDKM00
+PRODUCT_MANUFACTURER := oppo
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sys_oplus_mssi_64_cn-user 11 RP1A.200720.011 1652065164482 release-keys" \
-    BuildFingerprint=alps/sys_oplus_mssi_64_cn/oplus_mssi_64_cn:11/RP1A.200720.011/1652065164482:user/release-keys
+    BuildDesc="PDKM00-user 11 RP1A.200720.011 1652065164482 release-keys" \
+    BuildFingerprint=OPPO/PDKM00/PDKM00:11/RP1A.200720.011/1652065164482:user/release-keys
